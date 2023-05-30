@@ -1,0 +1,140 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+.form-inputs{
+    position:relative;
+}
+.form-inputs .form-control{
+    height:45px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs i{
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+
+.shop-bag{
+    background-color:#ffffff;
+    color:#fff;
+    height:50px;
+    width:50px;
+    font-size:25px;
+    display:flex;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+}
+
+.qty{
+    font-size:12px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.justify-content-around {
+    margin-top: 15px;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+.container{
+  width: 1000px;
+  margin: auto;
+  transition: 0.5s;
+}
+header{
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  margin-top: 50px;
+}
+header .shopping{
+  position: relative;
+  text-align: right;
+}
+header .shopping img{
+  width: 40px;
+}
+header .shopping span{
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: -5px;
+  left: 80%;
+  padding: 3px 10px;
+}
+
+
+
+
